@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>StudyLink - Home</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <a href="#main" class="a11y-skip">Skip to main content</a>
+  <div class="navbar">
+    <div class="logo">Study<span>Link</span></div>
+    <nav>
+      <a href="#" class="active">Dashboard</a>
+      <a href="#">Find a Tutor</a>
+      <a href="#">My Sessions</a>
+      <a href="#">Messages</a>
+      <a href="#">Profile</a>
+    </nav>
+  </div>
+  <div class="hero">
+    <h1>Welcome back, Lindiwe 👋</h1>
+    <p>Find a peer who's aced the module you're stuck on, or help someone else with yours. Booking a session takes under a minute.</p>
+  </div>
+  <div class="container" id="main">
+    <div class="search-bar">
+      <input type="text" placeholder="Search by module code, e.g. HCIN6222" aria-label="Search by module code"/>
+      <select aria-label="Filter by availability">
+        <option>Any time</option>
+        <option>Available now</option>
+        <option>This week</option>
+      </select>
+      <button>Search Tutors</button>
+    </div>
+
+    <div class="section-title">Recommended tutors for your modules</div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="avatar">TK</div>
+        <span class="status online">● Online now</span>
+        <h3>Tendai K.</h3>
+        <div class="module">HCIN6222 · Human Computer Interaction</div>
+        <div class="rating">★★★★★ 4.9 (32 sessions)</div>
+        <p class="desc">"Happy to walk through usability heuristics and WCAG with examples from past POEs."</p>
+        <button class="btn">Request Session</button>
+      </div>
+      <div class="card">
+        <div class="avatar">NM</div>
+        <span class="status away">● Usually replies in a day</span>
+        <h3>Naledi M.</h3>
+        <div class="module">PROG6212 · Programming 2B</div>
+        <div class="rating">★★★★☆ 4.6 (18 sessions)</div>
+        <p class="desc">"Strong with C# and MVC. Can help debug your POE project step by step."</p>
+        <button class="btn">Request Session</button>
+      </div>
+      <div class="card">
+        <div class="avatar">SR</div>
+        <span class="status online">● Online now</span>
+        <h3>Sipho R.</h3>
+        <div class="module">DBMS5110 · Databases</div>
+        <div class="rating">★★★★★ 5.0 (41 sessions)</div>
+        <p class="desc">"ER diagrams and normalisation made simple. Bring your current schema."</p>
+        <button class="btn">Request Session</button>
+      </div>
+    </div>
+  </div>
+  <div class="footer-note">StudyLink Prototype — Screen 1 of 4: Dashboard / Home</div>
+</body>
+</html>

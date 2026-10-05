@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>StudyLink - Book Session</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <a href="#main" class="a11y-skip">Skip to main content</a>
+  <div class="navbar">
+    <div class="logo">Study<span>Link</span></div>
+    <nav>
+      <a href="#">Dashboard</a>
+      <a href="#" class="active">Find a Tutor</a>
+      <a href="#">My Sessions</a>
+      <a href="#">Messages</a>
+      <a href="#">Profile</a>
+    </nav>
+  </div>
+  <div class="container" id="main" style="padding-top:50px;">
+    <div class="panel">
+      <h2>Book a session with Tendai K. — HCIN6222</h2>
+      <div class="summary-box">💬 You can message Tendai before confirming — conversational interaction keeps this low-pressure, not a cold request.</div>
+      <div class="inline-two">
+        <div class="form-row">
+          <label for="date">Date</label>
+          <input id="date" type="text" value="14 October 2026" />
+        </div>
+        <div class="form-row">
+          <label for="time">Time</label>
+          <input id="time" type="text" value="14:00" />
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="mode">Session type</label>
+        <select id="mode">
+          <option>Virtual (video call)</option>
+          <option>In person — Library Study Room 3</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="topic">What would you like help with?</label>
+        <textarea id="topic" rows="3">Struggling to structure my WCAG 2.0 section — would love a walkthrough with examples.</textarea>
+      </div>
+      <button class="btn">Confirm Booking</button>
+    </div>
+  </div>
+  <div class="footer-note">StudyLink Prototype — Screen 3 of 4: Booking Form (date-picker prevents past dates; keyboard accessible)</div>
+</body>
+</html>
